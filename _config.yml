@@ -20,12 +20,12 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Notable Medical Books
+title: The Queer Pulp Database
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: From the library of J.K. Lilly Jr.
+tagline: Selections from the Kinsey Institute Library's & Rebecca Baumann's collections
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This collection contains select publications that advanced or revolutionized the field of medicine."
+description: "This collection contains select mass market paperbacks that contain queer characters published in the 1960s through the 1980s."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: elarte-iu
 
@@ -34,7 +34,7 @@ author: elarte-iu
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: nmb_metadata_scheme_first_25
+metadata: _data/queer_pulp_database
 
 ##########
 # Site/Organization Branding 
