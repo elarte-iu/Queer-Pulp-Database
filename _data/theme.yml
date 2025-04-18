@@ -35,6 +35,20 @@ locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
+# PUBLISHER PAGE
+#
+publisher-fields: publisher # set the field to be featured in the cloud
+publisher-min: 1 # min size for subject cloud, too many terms = slow load time!
+publisher-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+
+##########
+# LOCATIONS PAGE
+#
+keywords-fields: keywords # set the field to be featured in the cloud
+keywords-min: 1 # min size for subject cloud, too many terms = slow load time!
+keywords-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+
+##########
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
