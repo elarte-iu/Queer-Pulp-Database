@@ -25,4 +25,3 @@ For a streamlined account creation process for the Lilly's request system, follo
 {% include feature/button.html text="Account Creation" link="https://libraries.indiana.edu/lilly-library-request-system" color="primary" %}
 </p></div>
 
-<p>{% include feature/image.html objectid="nmb_0074c" width="75" caption="van Leeuwenhoek, <i>Arcana Naturae Detecta</i> foldout" %}</p>
