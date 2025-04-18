@@ -2,7 +2,6 @@ field,index,display
 title,true,true
 date,true,true
 author,true,true
-description,true,true
-subject,true,true
+publisher,true,true
 place_of_publication,true,false
-call_number,true,false
+keywords,true,false
