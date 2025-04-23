@@ -42,11 +42,11 @@ publisher-min: 1 # min size for subject cloud, too many terms = slow load time!
 publisher-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
-# LOCATIONS PAGE
+# KEYWORDS PAGE
 #
 keywords-fields: keywords # set the field to be featured in the cloud
 keywords-min: 1 # min size for subject cloud, too many terms = slow load time!
-keywords-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+keywords-stopwords:
 
 ##########
 # MAP PAGE
