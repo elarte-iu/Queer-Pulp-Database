@@ -21,14 +21,6 @@ layout: page
     {% assign fields = site.data.theme.locations-fields %}
     {% assign min = site.data.theme.locations-min | default: 1 %}
     {% assign stopwords = site.data.theme.locations-stopwords %}
-{%- elsif page.cloud-fields == "site.data.theme.publisher-fields" -%}
-    {% assign fields = site.data.theme.publisher-fields %}
-    {% assign min = site.data.theme.publisher-min | default: 1 %}
-    {% assign stopwords = site.data.theme.publisher-stopwords %}
-{%- elsif page.cloud-fields == "site.data.theme.keywords-fields" -%}
-    {% assign fields = site.data.theme.keywords-fields %}
-    {% assign min = site.data.theme.keywords-min | default: 1 %}
-    {% assign stopwords = site.data.theme.keywords-stopwords %}
 {%- else -%}
     {% assign fields = page.cloud-fields | default: "subjects" %}
     {% assign min = page.cloud-min | default: 1 %}
